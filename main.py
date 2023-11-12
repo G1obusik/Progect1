@@ -19,7 +19,7 @@ class Main(tk.Frame):
 
         # кнопка добовления 
         # PhotoImage - добавленное изображения
-        self.add_img = tk.PhotoImage(file='./icons/add.png')
+        self.add_img = tk.PhotoImage(file='.add.png')
         # image - картинка, которая размещена на кнопке
         # bg - фон 
         # bd - граница
@@ -30,7 +30,7 @@ class Main(tk.Frame):
         btn_add.pack(side=tk.LEFT)
 
         # кнопка редактирования
-        self.upd_img = tk.PhotoImage(file='./icons/update.png')
+        self.upd_img = tk.PhotoImage(file='update.png')
         btn_upd = tk.Button(toolbar, 
                             image=self.upd_img,
                             bg='#B2C5F0', bd=0, 
@@ -38,7 +38,7 @@ class Main(tk.Frame):
         btn_upd.pack(side=tk.LEFT)
 
         # кнопка удаления
-        self.del_img = tk.PhotoImage(file='./icons/delete.png')
+        self.del_img = tk.PhotoImage(file='delete.png')
         btn_del = tk.Button(toolbar, 
                             image=self.del_img,
                             bg='#B2C5F0', bd=0, 
@@ -46,7 +46,7 @@ class Main(tk.Frame):
         btn_del.pack(side=tk.LEFT)
 
         # кнопка поиска
-        self.search_img = tk.PhotoImage(file='./icons/search.png')
+        self.search_img = tk.PhotoImage(file='search.png')
         btn_search = tk.Button(toolbar, 
                             image=self.search_img,
                             bg='#B2C5F0', bd=0, 
@@ -54,7 +54,7 @@ class Main(tk.Frame):
         btn_search.pack(side=tk.LEFT)
 
         # кнопка обновления
-        self.refresh_img = tk.PhotoImage(file='./icons/refresh.png')
+        self.refresh_img = tk.PhotoImage(file='refresh.png')
         btn_refresh = tk.Button(toolbar, 
                             image=self.refresh_img,
                             bg='#B2C5F0', bd=0, 
